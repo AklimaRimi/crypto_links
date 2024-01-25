@@ -9,32 +9,38 @@ import warnings
 warnings.filterwarnings('ignore')
 
 lis = []
-driver = webdriver.Chrome()
+driver = webdriver.Edge()
 
 driver.maximize_window()
-for page in range(1,299):
+df = pd.read_csv(f'Product_information.csv')
+
+x =  len(df)//100
+print(x)
+for page in range(x+1,299):
     link = f'https://coincheckup.com/?page={page}'
 
     driver.get(link)
-    time.sleep(1)
+    time.sleep(2)
     window_height = driver.execute_script("return window.innerHeight;")
-    driver.execute_script(f"window.scrollBy(0, {window_height*11});")
+    driver.execute_script(f"window.scrollBy(0, {window_height*10.2});")
     time.sleep(2)
 
     li = driver.find_elements(By.XPATH,"//a[@class='coin-name']")
+    print(len(li))
 
     for i in li:
         lis.append(i.get_attribute('href'))
+    df  = pd.DataFrame(lis)
+    df.to_csv('Product_information.csv',index=False,mode='a',header=False)
 
-
-
-df  = pd.DataFrame(lis,columns = ['Links'])
-df.to_csv('1/coincheckup_links.csv',index=False)
-
-data = []
-for i in lis:
+df = pd.read_csv(f'Product_information.csv') 
+df = df.drop_duplicates()
+lis = df['Links'].values.tolist()
+data = pd.read_csv('coincheckup_info.csv')['Project Info'].values.tolist()
+print(lis)
+for i in lis[len(data)-1:]:
     print(i,'\n\n\n')
-    
+    data = []
     driver.get(i)
     try:   
         time.sleep(2)
@@ -74,8 +80,8 @@ for i in lis:
         new_len = len(full_name.split(' ')[-1])
         data.append([i,full_name[:-new_len],full_name.split(' ')[-1],website,telegram,twitter])
     
-df  = pd.DataFrame(data,columns = ['Project Info','Full Name','Ticker','Website','Telegram','Twitter'])
-df.to_csv('1/coincheckup_info.csv',index=False)
+    df  = pd.DataFrame(data)
+    df.to_csv('coincheckup_info.csv',index=False,mode='a',header=False)
 
     
     

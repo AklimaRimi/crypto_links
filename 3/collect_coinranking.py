@@ -12,8 +12,8 @@ lis = []
 driver = webdriver.Chrome()
 
 driver.maximize_window()
-for page in range(1,278):
-    link = f'https://www.coincarp.com/pn_{page}.html'
+for page in range(1,645):
+    link = f'https://coinranking.com/?page={page}'
 
     driver.get(link)
     time.sleep(1)
@@ -21,15 +21,15 @@ for page in range(1,278):
     driver.execute_script(f"window.scrollBy(0, {window_height*11});")
     time.sleep(1)
 
-    li = driver.find_elements(By.XPATH,"//div[@class='flex']/a")
+    li = driver.find_elements(By.XPATH,"//a[@class='profile__link']")
 
-    for i in li[1:]:
+    for i in li[:51]:
         lis.append(i.get_attribute('href'))
 
-
+# print(lis)
 
 df  = pd.DataFrame(lis,columns = ['Links'])
-df.to_csv('coincarp_links.csv',index=False)
+df.to_csv('coinrank_links.csv',index=False)
 
 data = []
 for i in lis:
@@ -37,25 +37,25 @@ for i in lis:
     
     driver.get(i)
     time.sleep(1)
-    full_name = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div[2]/div[2]/div/div[1]/h2').text
-    new_len = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div[2]/div[2]/div/div[1]/h2/small').text
+    full_name = driver.find_element(By.XPATH,"//h1[@class='hero-coin__name']/a").text
+    new_len = driver.find_element(By.XPATH,"//div[@class='hero-coin__symbol']/a").text
     
     # social_media = driver.find_elements(By.XPATH,"//a[@class='ng-scope']")
      
     telegram = ''
     twitter = ''
-    li = driver.find_elements(By.XPATH,"//div[@class='info-top d-flex align-items-center']/a")
+    li = driver.find_elements(By.XPATH,"//a[@class='link-list__link']")
     for a in li:
         link = a.get_attribute('href')
         if 't.me' in link:
             telegram = link
         if 'twitter' in link:
             twitter = link    
-    website = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/ul/li[1]/a').get_attribute('href')
-    data.append([i,str(full_name[:-(len(new_len)+1)]),new_len,website,telegram,twitter])
+    website = driver.find_element(By.XPATH,'//*[@id="description"]/div[2]/table/tbody/tr[1]/td/a').get_attribute('href')
+    data.append([i, full_name,new_len,website,telegram,twitter])
     
 df  = pd.DataFrame(data,columns = ['Project Info','Full Name','Ticker','Website','Telegram','Twitter'])
-df.to_csv('coincarp_info.csv',index=False)
+df.to_csv('coinrank_info.csv',index=False)
 
     
     
