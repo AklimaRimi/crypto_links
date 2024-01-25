@@ -1,0 +1,401 @@
+Project Info,Full Name,Ticker,Website,Telegram,Twitter
+https://www.coincarp.com/currencies/bitcoin/,Bitcoin,BTC,https://bitcoin.org/,https://t.me/www_Bitcoin_com,https://twitter.com/BTCTN
+https://www.coincarp.com/currencies/ethereum/,Ethereum,ETH,https://www.ethereum.org/,,https://twitter.com/ethereum
+https://www.coincarp.com/currencies/tether/,Tether,USDT,https://tether.to/,,https://twitter.com/Tether_to
+https://www.coincarp.com/currencies/binance-coin/,Binance Coin,BNB,https://www.binance.com/,https://t.me/BinanceChinese,https://twitter.com/binance
+https://www.coincarp.com/currencies/solana/,Solana,SOL,https://solana.com/,https://t.me/solana,https://twitter.com/solana
+https://www.coincarp.com/currencies/ripple/,XRP,XRP,https://xrpl.org/,,https://twitter.com/Ripple
+https://www.coincarp.com/currencies/usdc/,USD Coin,USDC,https://www.centre.io/,,https://twitter.com/centre_io
+https://www.coincarp.com/currencies/lido/,Lido stETH,STETH,https://lido.fi/,https://t.me/lidofinance,https://twitter.com/lidofinance
+https://www.coincarp.com/currencies/cardano/,Cardano,ADA,https://www.cardano.org/,https://t.me/CardanoAnnouncements,https://twitter.com/CardanoStiftung
+https://www.coincarp.com/currencies/okb/,OKB,OKB,https://www.okx.com/,,
+https://www.coincarp.com/currencies/dogecoin/,Dogecoin,DOGE,http://dogecoin.com/,https://t.me/dogecoin_official,https://twitter.com/dogecoin
+https://www.coincarp.com/currencies/avalanche/,Avalanche,AVAX,https://www.avax.network/,https://t.me/avalancheavax,https://twitter.com/avalancheavax
+https://www.coincarp.com/currencies/tron/,TRON,TRX,https://tron.network/,https://t.me/tronnetworkEN,https://twitter.com/tronfoundation
+https://www.coincarp.com/currencies/polkadot100/,Polkadot,DOT,https://polkadot.network/,https://t.me/polkadotofficial,https://twitter.com/Polkadot
+https://www.coincarp.com/currencies/chainlink/,ChainLink,LINK,https://chain.link/,https://t.me/chainlinkofficial,https://twitter.com/chainlink
+https://www.coincarp.com/currencies/toncoin/,Toncoin,TON,https://ton.org/,https://t.me/toncoin,https://twitter.com/ton_blockchain
+https://www.coincarp.com/currencies/matictoken/,Polygon,MATIC,https://matic.network/,,https://twitter.com/0xPolygon
+https://www.coincarp.com/currencies/dai/,Dai,DAI,https://www.makerdao.com/,,https://twitter.com/MakerDAO
+https://www.coincarp.com/currencies/wrapped-bitcoin/,Wrapped Bitcoin,WBTC,https://www.wbtc.network/,,https://twitter.com/WrappedBTC
+https://www.coincarp.com/currencies/shibainu/,Shiba Inu,SHIB,https://shibatoken.com/,https://t.me/ShibaInu_Dogecoinkiller,https://twitter.com/Shibtoken
+https://www.coincarp.com/currencies/dfinity/,Internet Computer,ICP,https://dfinity.org/,https://t.me/dfinity,https://twitter.com/dfinity
+https://www.coincarp.com/currencies/litecoin/,Litecoin,LTC,https://litecoin.com/,https://t.me/litecoin,https://twitter.com/litecoin
+https://www.coincarp.com/currencies/bitcoin-cash/,Bitcoin Cash,BCH,https://www.bitcoincash.org/,,
+https://www.coincarp.com/currencies/uniswap/,Uniswap,UNI,https://uniswap.org/,,https://twitter.com/UniswapProtocol
+https://www.coincarp.com/currencies/true-usd/,TrueUSD,TUSD,https://www.trueusd.com/,https://t.me/TUSDofficial_EN,https://twitter.com/tusd_official
+https://www.coincarp.com/currencies/leotoken/,Unus Sed LEO,LEO,https://leo.bitfinex.com/,https://t.me/bfxtelegram,https://twitter.com/bitfinex
+https://www.coincarp.com/currencies/cosmos/,Cosmos,ATOM,https://cosmos.network/,https://t.me/cosmosproject,https://twitter.com/cosmos
+https://www.coincarp.com/currencies/ethereum-classic/,Ethereum Classic,ETC,https://ethereumclassic.github.io/,https://t.me/etczh,https://twitter.com/eth_classic
+https://www.coincarp.com/currencies/stellar/,Stellar,XLM,https://www.stellar.org/,,https://twitter.com/stellarorg
+https://www.coincarp.com/currencies/monero/,Monero,XMR,http://www.monero.cc/,,https://twitter.com/monero/
+https://www.coincarp.com/currencies/injectiveprotocol/,Injective Protocol,INJ,https://injective.com/,https://t.me/joininjective,https://twitter.com/injectivelabs
+https://www.coincarp.com/currencies/aptos/,Aptos,APT,https://aptoslabs.com/,https://t.me/aptoslabs,https://twitter.com/Aptos_Network
+https://www.coincarp.com/currencies/optimism/,Optimism,OP,https://www.optimism.io/,,https://twitter.com/optimismFND
+https://www.coincarp.com/currencies/nearprotocol/,NEAR Protocol,NEAR,https://near.org/,https://t.me/cryptonear,https://twitter.com/NEARProtocol
+https://www.coincarp.com/currencies/first-digital/,First Digital USD,FDUSD,https://firstdigitallabs.com/,,https://twitter.com/FDLabsHQ
+https://www.coincarp.com/currencies/lidodaotoken/,Lido DAO Token,LDO,https://lido.fi/,https://t.me/lidofinance,https://twitter.com/lidofinance
+https://www.coincarp.com/currencies/celestia/,Celestia,TIA,https://celestia.org/,https://t.me/CelestiaCommunity,https://twitter.com/CelestiaOrg
+https://www.coincarp.com/currencies/filecoinnew/,Filecoin,FIL,https://filecoin.io/,,https://twitter.com/Filecoin
+https://www.coincarp.com/currencies/hederahashgraph/,Hedera,HBAR,http://www.hedera.com/,https://t.me/hederahashgraph,https://twitter.com/hashgraph
+https://www.coincarp.com/currencies/immutablex/,Immutable X,IMX,https://www.immutable.com/,https://t.me/immutablex,https://twitter.com/Immutable
+https://www.coincarp.com/currencies/kaspa/,Kaspa,KAS,https://www.kaspa.org/,https://t.me/kaspaenglish,https://twitter.com/KaspaCurrency
+https://www.coincarp.com/currencies/arbitrum/,Arbitrum,ARB,https://arbitrum.io/,https://t.me/arbitrum,https://twitter.com/Arbitrum
+https://www.coincarp.com/currencies/blockstack/,Stacks,STX,https://www.stacks.co/,https://t.me/BlockstackChat,https://twitter.com/Stacks
+https://www.coincarp.com/currencies/maker/,Maker,MKR,https://makerdao.com/,https://t.me/makerdaoOfficial,https://twitter.com/MakerDAO
+https://www.coincarp.com/currencies/crypto-com-chain/,Cronos,CRO,https://crypto.com/en/chain.html,https://t.me/CryptoCom_Official,https://twitter.com/cryptocom
+https://www.coincarp.com/currencies/vechaincom/,Vechain,VET,https://www.vechain.com/,https://t.me/vechain_official_english,https://twitter.com/vechainofficial
+https://www.coincarp.com/currencies/rndrtoken/,Render Token,RNDR,https://rendertoken.com/,https://www.t.me/rendertoken,https://twitter.com/rendertoken
+https://www.coincarp.com/currencies/aave-new/,Aave,AAVE,https://aave.com/,https://t.me/Aavesome,https://twitter.com/aaveaave
+https://www.coincarp.com/currencies/graph/,Graph,GRT,https://thegraph.com/,https://t.me/graphprotocol,https://twitter.com/graphprotocol
+https://www.coincarp.com/currencies/thorchain/,THORChain,RUNE,https://thorchain.org/,https://t.me/thorchain_org,https://twitter.com/thorchain_org
+https://www.coincarp.com/currencies/sui/,Sui,SUI,https://sui.io/,,https://twitter.com/SuiNetwork
+https://www.coincarp.com/currencies/algorand/,Algorand,ALGO,https://www.algorand.com/,https://t.me/algorand,https://twitter.com/Algorand
+https://www.coincarp.com/currencies/elrond/,MultiversX(Elrond),EGLD,https://elrond.com/,https://t.me/ElrondNetwork,https://twitter.com/elrondnetwork
+https://www.coincarp.com/currencies/bitcoin-cash-sv/,Bitcoin SV,BSV,https://bitcoinsv.io/,,https://twitter.com/BitcoinSVNode
+https://www.coincarp.com/currencies/quant/,Quant,QNT,https://www.quant.network/,https://t.me/quantnetworkannouncements,https://twitter.com/quant_network
+https://www.coincarp.com/currencies/axieinfinity/,Axie Infinity,AXS,https://axieinfinity.com/,https://t.me/axieinfinity,https://twitter.com/axieinfinity
+https://www.coincarp.com/currencies/hnt/,Helium,HNT,https://www.helium.com/,,
+https://www.coincarp.com/currencies/sei-network/,Sei,SEI,https://www.sei.io/,https://t.me/seinetwork,https://twitter.com/SeiNetwork
+https://www.coincarp.com/currencies/flow/,Flow,FLOW,https://www.onflow.org/,https://t.me/flow_blockchain,https://twitter.com/flow_blockchain
+https://www.coincarp.com/currencies/ordi/,Ordinals,ORDI,https://ordinals.com/,,https://twitter.com/domodata
+https://www.coincarp.com/currencies/minaprotocol/,Mina Protocol,MINA,https://minaprotocol.com/,https://t.me/minaprotocol,https://twitter.com/minaprotocol
+https://www.coincarp.com/currencies/synthetix-network-token/,Synthetix,SNX,https://www.synthetix.io/,https://t.me/havven_official1,https://twitter.com/synthetix_io
+https://www.coincarp.com/currencies/thesandbox/,The Sandbox,SAND,https://www.sandbox.game/,https://t.me/sandboxgame,https://twitter.com/thesandboxgame
+https://www.coincarp.com/currencies/kcs/,KuCoin Token,KCS,https://www.kucoin.com/,https://t.me/KuCoin_Exchange_CN,https://twitter.com/kucoincom
+https://www.coincarp.com/currencies/thetatoken/,Theta,THETA,https://www.thetatoken.org/,https://t.me/ThetaChinese,https://twitter.com/Theta_Network
+https://www.coincarp.com/currencies/fantom/,Fantom,FTM,https://fantom.foundation/,,https://twitter.com/FantomFDN
+https://www.coincarp.com/currencies/chiliz/,Chiliz,CHZ,https://www.chiliz.com/,https://t.me/chiliz_io,https://twitter.com/chiliz
+https://www.coincarp.com/currencies/plasm/,Astar Network,ASTR,https://astar.network/,https://t.me/PlasmOfficial,https://twitter.com/AstarNetwork
+https://www.coincarp.com/currencies/tezos/,Tezos,XTZ,https://www.tezos.com/,,https://twitter.com/tezos
+https://www.coincarp.com/currencies/ftx-token/,FTX Token,FTT,https://ftx.com/,https://t.me/FTX_Official,https://twitter.com/FTX_official
+https://www.coincarp.com/currencies/onbeam/,Beam,BEAMX,https://www.onbeam.com/,,https://twitter.com/BuildOnBeam
+https://www.coincarp.com/currencies/wemix/,WEMIX,WEMIX,https://www.wemix.com/,,https://twitter.com/WemixNetwork
+https://www.coincarp.com/currencies/decentraland/,Decentraland,MANA,https://decentraland.org/,,https://twitter.com/decentraland
+https://www.coincarp.com/currencies/dydxexchange/,dYdX,DYDX,https://dydx.exchange/,,https://twitter.com/dydx
+https://www.coincarp.com/currencies/sats/,SATS,SATS,https://unisat.io/brc20/sats,https://t.me/satsbrc20_community,https://twitter.com/satscoin_brc20
+https://www.coincarp.com/currencies/bittorrent-new/,BitTorrent(new),BTT,https://bt.io/,,https://twitter.com/BitTorrent
+https://www.coincarp.com/currencies/iota/,IOTA,MIOTA,https://iota.org/,https://t.me/iotatangle,https://twitter.com/iota
+https://www.coincarp.com/currencies/osmosis/,Osmosis,OSMO,https://osmosis.zone/,https://t.me/osmosis_chat,https://twitter.com/osmosiszone
+https://www.coincarp.com/currencies/blur/,Blur,BLUR,https://blur.io/,,https://twitter.com/blur_io
+https://www.coincarp.com/currencies/eos/,EOS,EOS,https://eos.io/,https://t.me/EOSproject,https://twitter.com/eosio
+https://www.coincarp.com/currencies/neo/,Neo,NEO,https://neo.org/,,https://twitter.com/neo_blockchain
+https://www.coincarp.com/currencies/frax-share/,Frax Share,FXS,https://frax.finance/,,
+https://www.coincarp.com/currencies/mantanetwork/,Manta Network,MANTA,https://manta.network/,https://t.me/mantanetwork,https://twitter.com/mantanetwork
+https://www.coincarp.com/currencies/klaytn/,Klaytn,KLAY,https://klaytn.foundation/,https://t.me/KlaytnCommunity,https://twitter.com/klaytn_official
+https://www.coincarp.com/currencies/bonkcoin/,Bonk,BONK,https://www.bonkcoin.com/,https://t.me/Official_Bonk_Inu,https://twitter.com/bonk_inu
+https://www.coincarp.com/currencies/oasislabs/,Oasis Network,ROSE,https://oasisprotocol.org/,,https://twitter.com/OasisProtocol
+https://www.coincarp.com/currencies/confluxtoken/,Conflux,CFX,https://confluxnetwork.org/,https://t.me/Conflux_English,https://twitter.com/Conflux_Network
+https://www.coincarp.com/currencies/paxgold/,PAX Gold,PAXG,https://www.paxos.com/paxgold,,
+https://www.coincarp.com/currencies/ronin/,Ronin Network,RON,https://bridge.roninchain.com/,,https://twitter.com/AxieInfinity
+https://www.coincarp.com/currencies/gatechaintoken/,Gatechain Token,GT,https://gatechain.io/,https://t.me/gate_io,https://twitter.com/gate_io
+https://www.coincarp.com/currencies/geminidollar/,Gemini Dollar,GUSD,https://gemini.com/,,https://twitter.com/gemini
+https://www.coincarp.com/currencies/xinfin/,XDC Network,XDC,https://xinfin.org/,https://t.me/xinfin,https://twitter.com/XinFin_Official
+https://www.coincarp.com/currencies/gala/,Gala,GALA,https://gala.games/,https://t.me/GoGalaGames,https://twitter.com/GoGalaGames
+https://www.coincarp.com/currencies/wootrade/,WOO Network,WOO,https://woo.org/,https://t.me/wootrade,https://twitter.com/wootraderS
+https://www.coincarp.com/currencies/pancakeswap/,PancakeSwap,CAKE,https://pancakeswap.finance/,https://t.me/PancakeSwap,https://twitter.com/pancakeswap
+https://www.coincarp.com/currencies/ecash/,eCash,XEC,https://e.cash/,https://t.me/ecash_official,https://twitter.com/ecashofficial
+https://www.coincarp.com/currencies/pyth-network/,Pyth Network,PYTH,https://pyth.network/,https://t.me/pyth_network,https://twitter.com/PythNetwork
+https://www.coincarp.com/currencies/ocean-protocol/,Ocean Protocol,OCEAN,https://oceanprotocol.com/,https://t.me/oceanprotocol,https://twitter.com/oceanprotocol
+https://www.coincarp.com/currencies/pendlefinance/,Pendle Finance,PENDLE,https://www.pendle.finance/,https://t.me/pendlefinance,https://twitter.com/pendle_fi
+https://www.coincarp.com/currencies/rocketpoolnet/,Rocket Pool,RPL,https://www.rocketpool.net/,,https://twitter.com/Rocket_Pool
+https://www.coincarp.com/currencies/arweave/,Arweave,AR,https://www.arweave.org/,https://t.me/arweavers,https://twitter.com/ArweaveTeam
+https://www.coincarp.com/currencies/ethereumnameservice/,Ethereum Name Service,ENS,https://ens.domains/,,https://twitter.com/ensdomains
+https://www.coincarp.com/currencies/terra/,Luna Classic,LUNC,https://terra.money/,https://t.me/TerraLunaChat,https://twitter.com/terra_money
+https://www.coincarp.com/currencies/gnosis-gno/,Gnosis,GNO,https://gnosis.io/,,https://twitter.com/GnosisDAO
+https://www.coincarp.com/currencies/siacoin/,Siacoin,SC,http://sia.tech/,https://t.me/siacoin,https://twitter.com/Sia__Foundation
+https://www.coincarp.com/currencies/fetchai/,Fetch.AI,FET,https://fetch.ai/,https://t.me/fetch_ai,https://twitter.com/fetch_ai
+https://www.coincarp.com/currencies/apecoin-com/,ApeCoin,APE,https://apecoin.com/,,https://twitter.com/apecoin
+https://www.coincarp.com/currencies/curve/,Curve,CRV,https://www.curve.fi/,https://t.me/curvefi,https://twitter.com/curvefinance
+https://www.coincarp.com/currencies/nexo/,Nexo,NEXO,https://nexo.io/,https://t.me/nexofinance,https://twitter.com/NexoFinance
+https://www.coincarp.com/currencies/trustwallet/,Trust Wallet,TWT,https://trustwallet.com/,https://t.me/trust_announcements,https://twitter.com/TrustWalletApp
+https://www.coincarp.com/currencies/neon/,Neon EVM,NEON,https://neonevm.org/,,https://twitter.com/Neon_EVM
+https://www.coincarp.com/currencies/green-metaverse/,Green Metaverse Token,GMT,https://www.stepn.com/,,https://twitter.com/STEPNofficial
+https://www.coincarp.com/currencies/pepe/,Pepe,PEPE,https://www.pepe.vip/,https://t.me/pepecoineth,https://twitter.com/pepecoineth
+https://www.coincarp.com/currencies/1inchtoken/,1inch Token,1INCH,https://1inch.io/,https://t.me/OneInchExchange,https://twitter.com/1inch
+https://www.coincarp.com/currencies/compound/,Compound,COMP,https://compound.finance/,,https://twitter.com/compoundfinance
+https://www.coincarp.com/currencies/nem/,NEM,XEM,http://nem.io/,https://t.me/nemred,https://twitter.com/NEMofficial
+https://www.coincarp.com/currencies/aelf/,aelf,ELF,http://aelf.io/,,https://twitter.com/aelfblockchain
+https://www.coincarp.com/currencies/lotex/,IoTeX,IOTX,https://www.iotex.io/,https://t.me/IoTeXGroup,https://twitter.com/iotex_io
+https://www.coincarp.com/currencies/gmx/,GMX,GMX,https://gmx.io/,https://t.me/GMX_IO,https://twitter.com/GMX_IO
+https://www.coincarp.com/currencies/enjin-coin/,Enjin Coin,ENJ,https://enjincoin.io/,https://t.me/enjin_coin,https://twitter.com/enjin
+https://www.coincarp.com/currencies/skalenetwork/,SKALE Network,SKL,https://skale.network/,https://t.me/skaleofficial,https://twitter.com/SkaleNetwork
+https://www.coincarp.com/currencies/luna-new/,Luna,LUNA,https://www.terra.money/,https://t.me/TerraLunaChat,https://twitter.com/terra_money
+https://www.coincarp.com/currencies/gas/,Gas,GAS,https://neo.org/,,https://twitter.com/neo_blockchain
+https://www.coincarp.com/currencies/bitcoin-gold/,Bitcoin Gold,BTG,https://bitcoingold.org/,https://t.me/BitcoinGoldHQ,https://twitter.com/bitcoingold
+https://www.coincarp.com/currencies/uma/,UMA,UMA,https://umaproject.org/,,https://twitter.com/UMAprotocol
+https://www.coincarp.com/currencies/zcash/,Zcash,ZEC,https://z.cash/,,https://twitter.com/electriccoinco
+https://www.coincarp.com/currencies/paxosstandard/,Pax Dollar,USDP,https://www.paxos.com/,,https://twitter.com/paxosglobal
+https://www.coincarp.com/currencies/bitkubcoin/,Bitkub Coin,KUB,https://www.bitkubchain.com/,https://t.me/bitkubofficial,https://www.twitter.com/bitkubofficial
+https://www.coincarp.com/currencies/zilliqa/,Zilliqa,ZIL,https://www.zilliqa.com/,https://t.me/zilliqachat,https://twitter.com/zilliqa
+https://www.coincarp.com/currencies/celo/,Celo,CELO,https://celo.org/,,https://twitter.com/CeloOrg
+https://www.coincarp.com/currencies/masknetwork/,Mask Network,MASK,https://mask.io/,https://t.me/maskbook_group#telegram,https://twitter.com/realMaskNetwork
+https://www.coincarp.com/currencies/basic-attention-token/,Basic Attention Token,BAT,https://basicattentiontoken.org/,https://t.me/batproject,https://twitter.com/attentiontoken
+https://www.coincarp.com/currencies/agix/,SingularityNET,AGIX,https://singularitynet.io/,https://t.me/singularitynet,https://twitter.com/SingularityNET
+https://www.coincarp.com/currencies/holo/,Holo,HOT,https://holo.host/,https://t.me/channelHolo,https://twitter.com/H_O_L_O_
+https://www.coincarp.com/currencies/dash/,Dash,DASH,https://www.dash.org/,https://t.me/dash_chat,https://twitter.com/dashpay
+https://www.coincarp.com/currencies/loopring/,Loopring,LRC,https://loopring.org/,https://t.me/loopringorg,https://twitter.com/loopringorg
+https://www.coincarp.com/currencies/kava/,Kava,KAVA,https://www.kava.io/,https://t.me/kavalabs,https://twitter.com/KAVA_CHAIN
+https://www.coincarp.com/currencies/ondo-finance/,Ondo Finance,ONDO,https://ondo.finance/,https://t.me/ondofinance,https://twitter.com/OndoFinance
+https://www.coincarp.com/currencies/kusama/,Kusama,KSM,https://kusama.network/,https://t.me/kusamanetworkofficial,https://twitter.com/kusamanetwork
+https://www.coincarp.com/currencies/okexchaintoken/,OKC Token,OKT,https://www.okx.com/oec,,https://twitter.com/OKCnetwork
+https://www.coincarp.com/currencies/qtum/,Qtum,QTUM,https://qtum.org/,https://t.me/qtumofficial,https://twitter.com/qtum
+https://www.coincarp.com/currencies/glimmer/,Glimmer,GLMR,https://moonbeam.network/,https://t.me/Moonbeam_Official,https://twitter.com/moonbeamnetwork
+https://www.coincarp.com/currencies/floki-inu/,Floki Inu,FLOKI,https://www.floki.com/,https://t.me/FlokiInuToken,https://twitter.com/realflokiinu
+https://www.coincarp.com/currencies/ssv-network/,SSV Network,SSV,https://ssv.network/,,https://twitter.com/ssv_network
+https://www.coincarp.com/currencies/superfarm/,SuperVerse,SUPER,https://superverse.cool/,https://t.me/SuperFarmDAO,https://twitter.com/SuperFarmDAO
+https://www.coincarp.com/currencies/safepal/,SafePal,SFP,https://www.safepal.io/,,https://twitter.com/iSafePal
+https://www.coincarp.com/currencies/raydium/,Raydium,RAY,https://raydium.io/,https://t.me/raydiumprotocol,https://twitter.com/RaydiumProtocol
+https://www.coincarp.com/currencies/ribbon-finance/,Ribbon Finance,RBN,https://www.ribbon.finance/,,
+https://www.coincarp.com/currencies/iiiuvium/,Illuvium,ILV,https://illuvium.io/,https://t.me/illuvium,https://twitter.com/illuviumio
+https://www.coincarp.com/currencies/thetafuel/,Theta Fuel,TFUEL,https://www.thetatoken.org/,https://t.me/ThetaChinese,https://twitter.com/Theta_Network
+https://www.coincarp.com/currencies/ethw/,ETHPoW,ETHW,https://ethereumpow.org/,,https://twitter.com/EthereumPoW
+https://www.coincarp.com/currencies/mxtoken/,MX Token,MX,https://www.mexc.am/,https://t.me/MEXCEnglish,https://twitter.com/MEXC_Official
+https://www.coincarp.com/currencies/threshold-network/,Threshold Network,T,https://threshold.network/,,https://twitter.com/TheTNetwork
+https://www.coincarp.com/currencies/world-coin/,Worldcoin,WLD,https://worldcoin.org/,https://t.me/worldcoin,https://twitter.com/worldcoin
+https://www.coincarp.com/currencies/tellor/,Tellor,TRB,https://tellor.io/,https://t.me/tellor,https://twitter.com/wearetellor
+https://www.coincarp.com/currencies/0x/,0x,ZRX,https://0x.org/,,https://twitter.com/0xproject
+https://www.coincarp.com/currencies/kadena/,Kadena,KDA,http://kadena.io/,https://t.me/kadena_io,https://twitter.com/kadena_io
+https://www.coincarp.com/currencies/justgov/,JUST GOV,JST,https://www.just.network/,,
+https://www.coincarp.com/currencies/yearnfinance/,yearn.finance,YFI,https://yearn.finance/,https://t.me/yearnfinance,https://twitter.com/iearnfinance
+https://www.coincarp.com/currencies/flarenetworks/,Flare Network,FLR,https://flare.xyz/,https://t.me/FlareNetwork,https://twitter.com/FlareNetworks
+https://www.coincarp.com/currencies/sushi/,Sushi,SUSHI,https://sushi.com/,,https://twitter.com/sushiswap
+https://www.coincarp.com/currencies/convex-finance/,Convex Finance,CVX,https://www.convexfinance.com/,https://t.me/convexEthChat,https://twitter.com/ConvexFinance
+https://www.coincarp.com/currencies/magic/,Magic,MAGIC,https://www.treasure.lol/,,https://twitter.com/Treasure_DAO
+https://www.coincarp.com/currencies/waves/,Waves,WAVES,https://waves.tech/,,https://twitter.com/wavesprotocol
+https://www.coincarp.com/currencies/aragon/,Aragon,ANT,https://aragon.org/,https://t.me/ARAGONfr,https://twitter.com/AragonProject
+https://www.coincarp.com/currencies/jasmy/,Jasmy,JASMY,https://www.jasmy.co.jp/,https://t.me/OfficialJasmyUniverse,https://twitter.com/JasmyMGT
+https://www.coincarp.com/currencies/origintrail/,OriginTrail,TRAC,https://origintrail.io/,https://t.me/origintrail,https://twitter.com/origin_trail
+https://www.coincarp.com/currencies/ankr/,Ankr,ANKR,https://www.ankr.com/,https://t.me/ankrnetwork,https://twitter.com/ankr
+https://www.coincarp.com/currencies/ravencoin/,Ravencoin,RVN,https://ravencoin.org/,https://t.me/RavencoinDev,https://twitter.com/ravencoin
+https://www.coincarp.com/currencies/biconomy/,Biconomy,BICO,https://biconomy.io/,https://t.me/biconomy,https://twitter.com/biconomy
+https://www.coincarp.com/currencies/storj/,Storj,STORJ,https://storj.io/,,https://twitter.com/storjproject
+https://www.coincarp.com/currencies/decred/,Decred,DCR,https://www.decred.org/,https://t.me/Decred,https://twitter.com/decredproject
+https://www.coincarp.com/currencies/bandprotocol/,Band Protocol,BAND,https://bandprotocol.com/,https://t.me/bandprotocol,https://twitter.com/bandprotocol
+https://www.coincarp.com/currencies/jito-token/,Jito,JTO,https://www.jito.network/,https://t.me/+csIgnEQMCHhiYjVh,https://twitter.com/jito_sol
+https://www.coincarp.com/currencies/babydoge/,Baby Doge Coin,BABYDOGE,https://babydoge.com/,https://t.me/babydogecoin,https://twitter.com/babydogecoin
+https://www.coincarp.com/currencies/icon/,ICON,ICX,https://icon.community/,https://t.me/joinchat/Fqw4igkkVmYtj--ZVi-QcA,https://twitter.com/helloiconworld
+https://www.coincarp.com/currencies/audius/,Audius,AUDIO,https://audius.co/,,https://twitter.com/AudiusProject
+https://www.coincarp.com/currencies/terrausd/,TerraClassicUSD,USTC,https://terra.money/,,https://twitter.com/terra_money
+https://www.coincarp.com/currencies/golem-network-tokens/,Golem,GLM,https://golem.network/,,https://twitter.com/golemproject
+https://www.coincarp.com/currencies/rats/,rats,RATS,https://unisat.io/brc20/rats,,
+https://www.coincarp.com/currencies/ont/,Ontology,ONT,https://ont.io/,https://t.me/OntologyNetworkCN,https://twitter.com/OntologyNetwork
+https://www.coincarp.com/currencies/livepeer/,Livepeer Token,LPT,https://livepeer.org/,https://t.me/livepeer,https://twitter.com/LivepeerOrg
+https://www.coincarp.com/currencies/zelnetwork/,Flux,FLUX,https://runonflux.io/,,https://twitter.com/RunOnFlux
+https://www.coincarp.com/currencies/endurance/,Fusionist,ACE,https://ace.fusionist.io/,https://t.me/fusionistann,https://twitter.com/fusionistio
+https://www.coincarp.com/currencies/memeland/,Memecoin,MEME,https://www.memecoin.org/,https://t.me/memecoin,https://twitter.com/memecoin
+https://www.coincarp.com/currencies/chromia/,Chromia,CHR,https://chromia.com/,https://t.me/chromapolisbychromaway,https://twitter.com/Chromia
+https://www.coincarp.com/currencies/webuy/,Webuy,WE,https://webuynft.xyz/,,https://twitter.com/WebuyOfficial
+https://www.coincarp.com/currencies/balancer/,Balancer,BAL,https://balancer.finance/,,https://twitter.com/BalancerLabs
+https://www.coincarp.com/currencies/xai-games/,Xai,XAI,https://xai.games/,https://t.me/XaiSentryNodes,https://twitter.com/xai_games
+https://www.coincarp.com/currencies/swipe/,Solar,SXP,https://solar.org/,,https://twitter.com/SwipeWallet
+https://www.coincarp.com/currencies/moonriver/,Moonriver,MOVR,https://moonbeam.network/networks/moonriver/,https://t.me/Moonbeam_Official,https://twitter.com/Moonbeamnetwork
+https://www.coincarp.com/currencies/wax/,WAX Token,WAXP,https://on.wax.io/wax-io/,https://t.me/wax_io,https://twitter.com/WAX_io
+https://www.coincarp.com/currencies/harmonyone/,Harmony,ONE,https://harmony.one/,https://t.me/harmony_one,https://twitter.com/harmonyprotocol
+https://www.coincarp.com/currencies/tribe/,Tribe,TRIBE,https://fei.money/,https://t.me/feiprotocol,https://twitter.com/feiprotocol
+https://www.coincarp.com/currencies/xvs/,Venus,XVS,https://venus.io/,https://t.me/VenusProtocol,https://twitter.com/VenusProtocol
+https://www.coincarp.com/currencies/api3/,API3,API3,https://api3.org/,https://t.me/API3DAO,https://twitter.com/API3DAO
+https://www.coincarp.com/currencies/lisk/,Lisk,LSK,https://lisk.io/,https://t.me/Lisk_HQ,https://twitter.com/LiskHQ
+https://www.coincarp.com/currencies/power-ledger/,Power Ledger,POWR,https://powerledger.io/,https://t.me/powerledger,https://twitter.com/PowerLedger_io
+https://www.coincarp.com/currencies/ark/,Ark,ARK,http://ark.io/,,https://twitter.com/ArkEcosystem
+https://www.coincarp.com/currencies/orbs/,Orbs,ORBS,https://www.orbs.com/,https://t.me/orbs_network,https://twitter.com/orbs_network
+https://www.coincarp.com/currencies/rlc/,iExec RLC,RLC,http://iex.ec/,https://t.me/iexec_announcements,https://twitter.com/iEx_ec
+https://www.coincarp.com/currencies/cartesi/,Cartesi,CTSI,https://cartesi.io/,https://t.me/cartesiproject,https://twitter.com/cartesiproject
+https://www.coincarp.com/currencies/traderjoe/,Trader Joe,JOE,https://www.traderjoexyz.com/,https://t.me/traderjoe_xyz,https://twitter.com/traderjoe_xyz
+https://www.coincarp.com/currencies/project-eco/,Galxe(Project Galaxy),GAL,https://galxe.com/,https://t.me/Galxe,https://twitter.com/Galxe
+https://www.coincarp.com/currencies/hiveio/,Hive,HIVE,https://hive.io/,https://t.me/hiveblockchain,https://twitter.com/hiveblocks
+https://www.coincarp.com/currencies/creditcoin/,Creditcoin,CTC,https://www.creditcoin.org/,,https://twitter.com/creditcoin
+https://www.coincarp.com/currencies/iost/,IOST,IOST,http://iost.io/,,https://twitter.com/IOST_Official
+https://www.coincarp.com/currencies/auction/,Bounce Token,AUCTION,https://bounce.finance/,https://t.me/bounce_finance,https://twitter.com/bounce_finance
+https://www.coincarp.com/currencies/status/,Status,SNT,http://status.im/,,https://twitter.com/ethstatus
+https://www.coincarp.com/currencies/coin98/,Coin98,C98,https://www.coin98.com/,https://t.me/coin98_wallet,https://twitter.com/coin98_labs
+https://www.coincarp.com/currencies/vulcan-forged/,Vulcan Forged,PYR,https://vulcanforged.com/,https://t.me/VeriArti,https://twitter.com/VulcanForged
+https://www.coincarp.com/currencies/lcx/,LCX token,LCX,https://www.lcx.com/,https://t.me/JoinLCX,https://twitter.com/lcx
+https://www.coincarp.com/currencies/vethor-token/,VeThor Token,VTHO,https://www.vechain.org/,https://t.me/vechain_official_english,https://twitter.com/vechainofficial
+https://www.coincarp.com/currencies/prometeus/,Prom,PROM,https://prom.io/,https://t.me/prom_io,https://twitter.com/prom_io
+https://www.coincarp.com/currencies/raiblocks/,Nano,XNO(NANO),https://nano.org/en,,https://twitter.com/nano
+https://www.coincarp.com/currencies/tko/,Tokocrypto,TKO,https://www.tokocrypto.com/,https://t.me/TokocryptoOfficial,https://twitter.com/TokoCrypto
+https://www.coincarp.com/currencies/amp/,Amp,AMP,https://amptoken.org/,,https://twitter.com/amptoken
+https://www.coincarp.com/currencies/constitutiondao/,ConstitutionDAO,PEOPLE,https://www.constitutiondao.com/,,https://twitter.com/constitutiondao
+https://www.coincarp.com/currencies/wrappednxm/,Wrapped NXM,wNXM,https://nexusmutual.io/,,https://twitter.com/NexusMutual
+https://www.coincarp.com/currencies/open-campus/,Open Campus,EDU,https://www.opencampus.xyz/,,https://twitter.com/opencampus_xyz
+https://www.coincarp.com/currencies/keepnetwork/,Keep Network,KEEP,https://keep.network/,https://t.me/KeepNetworkOfficial,https://twitter.com/keep_project
+https://www.coincarp.com/currencies/nervosckb/,Nervos CKB,CKB,https://www.nervos.org/,https://t.me/NervosNetwork,https://twitter.com/NervosNetwork
+https://www.coincarp.com/currencies/celernetwork/,Celer Network,CELR,https://www.celer.network/,https://t.me/celernetwork,https://twitter.com/CelerNetwork
+https://www.coincarp.com/currencies/tomi-com/,tomiNet,TOMI,https://www.tomi.com/,https://t.me/tomipioneers,https://twitter.com/tomipioneers
+https://www.coincarp.com/currencies/maverick-protocol/,Maverick Protocol,MAV,https://www.mav.xyz/,,https://twitter.com/mavprotocol
+https://www.coincarp.com/currencies/sleepless-ai/,Sleepless AI,AI,https://www.sleeplessai.net/,https://t.me/SleeplessAIGroup,https://twitter.com/SleeplessAI_Lab
+https://www.coincarp.com/currencies/strax/,Stratis,STRAX,https://www.stratisplatform.com/,https://t.me/StratisPlatform,https://twitter.com/stratisplatform
+https://www.coincarp.com/currencies/bone-shibaswap/,Bone ShibaSwap,BONE,https://www.shibatoken.com/,https://t.me/ShibaInu_Dogecoinkiller,https://twitter.com/shibtoken
+https://www.coincarp.com/currencies/polymesh/,Polymesh,POLYX,https://polymesh.network/,,https://twitter.com/PolymeshNetwork
+https://www.coincarp.com/currencies/ton-crystal/,Everscale,EVER,https://everscale.network/,,https://twitter.com/Everscale_net
+https://www.coincarp.com/currencies/rif/,Rootstock Infrastructure Framework,RIF,https://rif.technology/,https://t.me/rif_os_community,https://twitter.com/RifTechnology
+https://www.coincarp.com/currencies/yield-guild-games/,Yield Guild Games,YGG,https://yieldguild.io/,,https://twitter.com/yieldguild
+https://www.coincarp.com/currencies/numeraire/,Numeraire,NMR,https://numer.ai/,https://t.me/NMR_Official,https://twitter.com/numerai
+https://www.coincarp.com/currencies/bigtime/,Big Time,BIGTIME,https://bigtime.gg/,,https://twitter.com/playbigtime
+https://www.coincarp.com/currencies/marlin/,Marlin,POND,https://www.marlin.pro/,https://t.me/marlinprotocol,https://twitter.com/MarlinProtocol
+https://www.coincarp.com/currencies/digibyte/,DigiByte,DGB,http://www.digibyte.io/,https://t.me/DigiByteCoin,https://twitter.com/DigiByteCoin
+https://www.coincarp.com/currencies/space-id/,SPACE ID,ID,https://space.id/,https://t.me/spaceid_news,https://twitter.com/SpaceIDProtocol
+https://www.coincarp.com/currencies/bluzelle/,Bluzelle,BLZ,https://bluzelle.com/,https://t.me/bluzelle,https://twitter.com/bluzellehq
+https://www.coincarp.com/currencies/nym/,NYM,NYM,https://nymtech.net/,https://t.me/nymchan,https://twitter.com/nymproject
+https://www.coincarp.com/currencies/alchemypay/,Alchemy Pay,ACH,https://alchemypay.org/,https://t.me/alchemy_official,https://twitter.com/AlchemyPay
+https://www.coincarp.com/currencies/assemble/,Assemble Protocol,ASM,http://assembleprotocol.io/,https://t.me/assembleprotocol,https://twitter.com/ASSEMBLE_io
+https://www.coincarp.com/currencies/nfprompt/,NFPrompt,NFP,https://nfprompt.io/,https://t.me/nfprompt,https://twitter.com/nfprompt
+https://www.coincarp.com/currencies/smalllovepotion/,Small Love Potion,SLP,https://axieinfinity.com/,,
+https://www.coincarp.com/currencies/loom-network/,Loom Network,LOOM,https://loomx.io/,https://t.me/loomnetwork,https://twitter.com/loomnetwork
+https://www.coincarp.com/currencies/rsr/,Reserve Rights,RSR,https://reserve.org/,,
+https://www.coincarp.com/currencies/lqty/,Liquity,LQTY,https://www.liquity.org/,,https://twitter.com/LiquityProtocol
+https://www.coincarp.com/currencies/zencash/,Horizen,ZEN,https://www.horizen.global/,,https://twitter.com/horizenglobal
+https://www.coincarp.com/currencies/pundi-x-2/,Pundi X [new],PUNDIX,https://pundix.com/,https://t.me/Pundix,https://twitter.com/PundiXLabs
+https://www.coincarp.com/currencies/playdapp/,PlayDapp,PLA,https://playdapp.io/,https://t.me/playdapp_official,https://twitter.com/playdapp_io
+https://www.coincarp.com/currencies/kyber-network/,Kyber Network Crystal,KNC,https://kyber.network/,https://t.me/kybernetwork,https://twitter.com/kybernetwork
+https://www.coincarp.com/currencies/dusk-network/,Dusk,DUSK,https://www.dusk.network/,https://t.me/DuskNetwork,https://twitter.com/duskfoundation
+https://www.coincarp.com/currencies/perp/,Perpetual Protocol,PERP,https://perp.com/,,https://twitter.com/perpprotocol
+https://www.coincarp.com/currencies/hashflow/,Hashflow,HFT,https://hashflow.com/,https://t.me/hashflownetwork,https://twitter.com/hashflow
+https://www.coincarp.com/currencies/stargate-finance/,Stargate Finance,STG,https://stargate.finance/,https://t.me/joinchat/lem0elklmo1koddh,https://twitter.com/StargateFinance
+https://www.coincarp.com/currencies/synapse-2/,Synapse,SYN,https://synapseprotocol.com/,https://t.me/synapseprotocol,https://twitter.com/SynapseProtocol
+https://www.coincarp.com/currencies/metal/,Metal DAO,MTL,https://www.metalpay.com/,https://t.me/metalpaysme,https://twitter.com/metalpaysme
+https://www.coincarp.com/currencies/dexe/,Dexe.network,DEXE,https://dexe.network/,https://t.me/Dexe_network,https://twitter.com/DexeNetwork
+https://www.coincarp.com/currencies/stpt/,STP Network,STPT,https://stp.network/,https://t.me/STPofficial,https://twitter.com/STP_Networks
+https://www.coincarp.com/currencies/hooked-protocol/,Hooked Protocol,HOOK,https://hooked.io/,https://t.me/HookedProtocolOfficial,https://twitter.com/HookedProtocol
+https://www.coincarp.com/currencies/secretnetwork/,Secret Network,SCRT,https://scrt.network/,https://t.me/SCRTcommunity,https://twitter.com/SecretNetwork
+https://www.coincarp.com/currencies/routerprotocol/,Router Protocol,ROUTE,https://www.routerprotocol.com/,https://t.me/routerprotocol,https://twitter.com/routerprotocol
+https://www.coincarp.com/currencies/binanceusd/,Binance USD,BUSD,https://www.paxos.com/busd,,
+https://www.coincarp.com/currencies/steem/,Steem,STEEM,https://steem.io/,,https://twitter.com/SteemNetwork
+https://www.coincarp.com/currencies/binaryx-new/,BinaryX (new),BNX,https://www.binaryx.pro/,https://t.me/binaryxGlobal,https://twitter.com/binary_x
+https://www.coincarp.com/currencies/civic/,Civic,CVC,https://www.civic.com/,https://t.me/civicplatform,https://twitter.com/civickey
+https://www.coincarp.com/currencies/dodo/,DODO Token,DODO,https://dodoex.io/,https://t.me/dodoex_official,https://twitter.com/BreederDodo
+https://www.coincarp.com/currencies/aurora-dev/,Aurora,AURORA,https://aurora.dev/,https://t.me/auroraisnear,https://twitter.com/auroraisnear
+https://www.coincarp.com/currencies/dent/,Dent,DENT,https://www.dentwireless.com/,,
+https://www.coincarp.com/currencies/radicle/,Radicle,RAD,https://radicle.xyz/,,https://twitter.com/radicle
+https://www.coincarp.com/currencies/cortex/,Cortex,CTXC,http://cortexlabs.ai/,https://t.me/CortexOfficialEN,https://twitter.com/CTXCBlockchain
+https://www.coincarp.com/currencies/bakeryswap/,BakeryToken,BAKE,https://www.bakeryswap.org/,https://t.me/bakeryswap,https://twitter.com/bakery_swap
+https://www.coincarp.com/currencies/bancor/,Bancor,BNT,https://bancor.network/,https://t.me/bancor,https://twitter.com/Bancor
+https://www.coincarp.com/currencies/winkorg/,WINkLink,WIN,https://winklink.org/,https://t.me/WINkLink_Oracle_official,https://twitter.com/WinkLink_Oracle
+https://www.coincarp.com/currencies/everipedia/,Everipedia,IQ,https://everipedia.org/,https://t.me/everipedia,https://twitter.com/everipedia
+https://www.coincarp.com/currencies/omisego/,OMG Network,OMG,https://omg.network/,,https://twitter.com/omgnetworkhq
+https://www.coincarp.com/currencies/orchid/,Orchid,OXT,https://www.orchid.com/,https://www.t.me/OrchidOfficial,https://twitter.com/OrchidProtocol
+https://www.coincarp.com/currencies/wrxtoken/,WRX Token,WRX,https://wazirx.com/,https://t.me/wazirx,https://twitter.com/WazirxIndia
+https://www.coincarp.com/currencies/syscoin/,SysCoin,SYS,http://syscoin.org/,https://t.me/Syscoin_Official,https://twitter.com/syscoin
+https://www.coincarp.com/currencies/origintoken/,Origin Token,OGN,https://www.originprotocol.com/,https://t.me/originprotocol,https://twitter.com/originprotocol
+https://www.coincarp.com/currencies/ardor/,Ardor,ARDR,https://www.ardorplatform.org/,,https://twitter.com/ArdorPlatform
+https://www.coincarp.com/currencies/dogelon-mars/,Dogelon Mars,ELON,https://dogelonmars.com/,https://t.me/DogelonMars,https://twitter.com/dogelonmars
+https://www.coincarp.com/currencies/request-network/,Request Network,REQ,https://request.network/,https://t.me/requestnetwork,https://twitter.com/requestnetwork
+https://www.coincarp.com/currencies/yfii/,DFI.Money,YFII,https://dfi.money/,https://t.me/yfiifinance,https://twitter.com/DfiMoney
+https://www.coincarp.com/currencies/certik/,Shentu,CTK,https://www.shentu.technology/,,https://twitter.com/ShentuChain
+https://www.coincarp.com/currencies/alphafinancelab/,Stella,ALPHA,https://stellaxyz.io/,,https://twitter.stellaxyz.io/
+https://www.coincarp.com/currencies/looksrare/,LooksRare,LOOKS,https://looksrare.org/,,https://twitter.com/LooksRareNFT
+https://www.coincarp.com/currencies/nkn/,NKN,NKN,https://www.nkn.org/,https://t.me/nknorg,https://twitter.com/NKN_ORG
+https://www.coincarp.com/currencies/adventure-gold/,Adventure Gold,AGLD,https://www.lootproject.com/,,https://twitter.com/lootproject
+https://www.coincarp.com/currencies/cyberconnect/,CyberConnect,CYBER,https://cyberconnect.me/,https://t.me/CyberConnectOfficial,https://twitter.com/CyberConnectHQ
+https://www.coincarp.com/currencies/mobox/,MOBOX,MBOX,https://www.mobox.io/,https://t.me/mobox_io,https://twitter.com/MOBOX_Official
+https://www.coincarp.com/currencies/arkham/,Arkham,ARKM,https://www.arkhamintelligence.com/,,https://twitter.com/arkhamintel
+https://www.coincarp.com/currencies/sunnew/,SUN(new),SUN,https://sun.io/,https://t.me/SunIO_Defi,https://twitter.com/defi_sunio
+https://www.coincarp.com/currencies/world-mobile-token/,World Mobile Token,WMT,https://worldmobiletoken.com/,,https://twitter.com/WorldMobileTeam
+https://www.coincarp.com/currencies/arpa/,ARPA,ARPA,https://arpachain.io/,https://t.me/arpa_community,https://twitter.com/arpaofficial?source=user_profile
+https://www.coincarp.com/currencies/gitcoin/,Gitcoin,GTC,https://gitcoin.co/,,https://twitter.com/gitcoin
+https://www.coincarp.com/currencies/telos/,Telos,TLOS,https://telos.net/,https://t.me/HelloTelos,https://twitter.com/hellotelos
+https://www.coincarp.com/currencies/sweatcoin/,Sweatcoin,SWEAT,https://sweateconomy.com/,https://t.me/sweateconomy,https://twitter.com/SweatEconomy
+https://www.coincarp.com/currencies/moviebloc/,Moviebloc,MBL,https://www.moviebloc.com/,,https://twitter.com/moviebloc
+https://www.coincarp.com/currencies/godsunchained/,Gods Unchained,GODS,https://godsunchained.com/,https://t.me/GodsUnchainedAnn,https://twitter.com/godsunchained
+https://www.coincarp.com/currencies/alice/,My Neighbor Alice,ALICE,https://www.myneighboralice.com/,https://t.me/MyNeighborAlice,https://twitter.com/MyNeighborAlice
+https://www.coincarp.com/currencies/highstreet/,Highstreet,HIGH,https://highstreet.market/,https://t.me/highstreetworld,https://twitter.com/highstreetworld
+https://www.coincarp.com/currencies/polkastarter/,Polkastarter,POLS,https://www.polkastarter.com/,https://t.me/polkastarter,https://twitter.com/polkastarter
+https://www.coincarp.com/currencies/storm/,StormX,STMX,https://stormx.io/,https://t.me/joinchat/GHTZGQwsy9mZk0KFEEjGtg,https://twitter.com/Storm_Token
+https://www.coincarp.com/currencies/elastos/,Elastos,ELA,https://www.elastos.org/,https://t.me/elastoschina,https://twitter.com/ElastosInfo
+https://www.coincarp.com/currencies/coti/,COTI,COTI,https://coti.io/,https://t.me/COTInetwork,https://twitter.com/COTInetwork
+https://www.coincarp.com/currencies/terravirtua/,Vanar,VANRY,https://vanarchain.com/,https://t.me/vanarchain,https://twitter.com/vanarchain
+https://www.coincarp.com/currencies/phala/,Phala,PHA,https://phala.network/,https://t.me/phalanetwork,https://twitter.com/PhalaNetwork
+https://www.coincarp.com/currencies/tomochain/,Viction,VIC,https://viction.xyz/,https://t.me/buildonviction,https://twitter.com/BuildOnViction
+https://www.coincarp.com/currencies/ali-token/,Artificial Liquid Intelligence,ALI,https://alethea.ai/,https://t.me/alethea_ai,https://twitter.com/real_alethea
+https://www.coincarp.com/currencies/acalanetwork/,Acala Token,ACA,https://acala.network/,https://t.me/acalaofficial,https://twitter.com/AcalaNetwork
+https://www.coincarp.com/currencies/velas/,Velas,VLX,https://www.velas.com/,,https://twitter.com/VelasBlockchain
+https://www.coincarp.com/currencies/quarkchain/,QuarkChain,QKC,https://quarkchain.io/,https://t.me/quarkchainio,https://twitter.com/Quark_Chain
+https://www.coincarp.com/currencies/xyo-network/,XYO Network,XYO,https://xyo.network/,https://t.me/xyonetwork,https://twitter.com/OfficialXYO
+https://www.coincarp.com/currencies/hifi-finance-v2/,Hifi Finance V2,HIFI,https://hifi.finance/,,https://twitter.com/HifiFinance
+https://www.coincarp.com/currencies/benqifi/,BENQI,QI,https://benqi.fi/,https://t.me/BenqiFinance,https://twitter.com/BenqiFinance
+https://www.coincarp.com/currencies/core-dao/,Core DAO,CORE,https://www.coredao.org/,https://t.me/CoreDAOTelegram,https://twitter.com/Coredao_Org
+https://www.coincarp.com/currencies/superrare/,SuperRare,RARE,https://superrare.com/,,https://twitter.com/SuperRare
+https://www.coincarp.com/currencies/mantradao/,MANTRA,OM,https://www.mantraomniverse.com/,https://t.me/MANTRA_omniverse,https://twitter.com/MANTRAOMniverse
+https://www.coincarp.com/currencies/funfair/,FUNToken,FUN,https://funtoken.io/,https://t.me/joinchat/HtUKhUpG0FCu_X25mnU2Bg,https://twitter.com/FunFairTech
+https://www.coincarp.com/currencies/mobilecoin/,MobileCoin,MOB,https://www.mobilecoin.com/,,https://twitter.com/mobilecoin
+https://www.coincarp.com/currencies/aergo/,Aergo,AERGO,https://www.aergo.io/,https://t.me/aergoannouncements,https://twitter.com/AERGO_IO
+https://www.coincarp.com/currencies/function-x/,Function X,FX,https://functionx.io/,https://t.me/functionx,https://twitter.com/functionx_io
+https://www.coincarp.com/currencies/badger-dao/,Badger DAO,BADGER,https://app.badger.finance/,https://t.me/badger_dao,https://twitter.com/badgerdao
+https://www.coincarp.com/currencies/radiocaca/,Radio Caca,RACA,https://www.radiocaca.com/,,https://twitter.com/RACA_3
+https://www.coincarp.com/currencies/rss3/,RSS3,RSS3,https://rss3.io/,https://t.me/rss3_en,https://twitter.com/rss3_
+https://www.coincarp.com/currencies/verasity/,Verasity,VRA,https://www.verasity.io/,https://t.me/verasitychat,https://twitter.com/verasitytech
+https://www.coincarp.com/currencies/spell-token/,Spell Token,SPELL,https://abracadabra.money/,https://t.me/MIM_Spell,https://twitter.com/MIM_Spell
+https://www.coincarp.com/currencies/republic-protocol/,Republic Protocol,REN,https://renproject.io/,,https://twitter.com/renprotocol
+https://www.coincarp.com/currencies/zebec-protocol/,Zebec Protocol,ZBC,https://zebec.io/,https://t.me/zebececosystem,https://twitter.com/Zebec_HQ
+https://www.coincarp.com/currencies/trilium/,Alien Worlds,TLM,https://www.alienworlds.io/,https://t.me/AlienWorldsOffical,https://twitter.com/alienworlds
+https://www.coincarp.com/currencies/verge/,Verge,XVG,http://vergecurrency.com/,https://t.me/VERGExvg,https://twitter.com/vergecurrency
+https://www.coincarp.com/currencies/betafinance/,Beta Finance,BETA,https://betafinance.org/,https://t.me/BetaFinanceProtocol,https://twitter.com/beta_finance
+https://www.coincarp.com/currencies/propy/,Propy,PRO,https://propy.com/,https://t.me/propy,https://twitter.com/propyinc
+https://www.coincarp.com/currencies/ong/,Ontology Gas,ONG,https://ont.io/,https://t.me/OntologyNetworkCN,https://twitter.com/OntologyNetwork
+https://www.coincarp.com/currencies/truefi/,TrueFi,TRU,https://truefi.io/,https://t.me/jointruefi,https://twitter.com/TrueFiDAO
+https://www.coincarp.com/currencies/ampleforth-governance-token/,Ampleforth Governance Token,FORTH,https://www.ampleforth.org/,,https://twitter.com/ampleforthorg
+https://www.coincarp.com/currencies/morpheus-network-mnw/,Morpheus Network,MNW,https://morpheus.network/,https://t.me/themorpheusnetwork/,https://twitter.com/MRPHSupplyChain
+https://www.coincarp.com/currencies/mdex/,Mdex,MDX,https://mdex.me/,https://t.me/MixDex,https://twitter.com/Mdexswap
+https://www.coincarp.com/currencies/aavegotchi/,Aavegotchi,GHST,https://www.aavegotchi.com/,https://t.me/Aavegotchi,https://twitter.com/Aavegotchi
+https://www.coincarp.com/currencies/streamr-datacoin/,Streamr,DATA,https://streamr.network/,https://t.me/streamrdata,https://twitter.com/streamr
+https://www.coincarp.com/currencies/mines-of-dalarnia/,Mines of Dalarnia,DAR,https://www.minesofdalarnia.com/,https://t.me/MinesOfDalarnia,https://twitter.com/MinesOfDalarnia
+https://www.coincarp.com/currencies/alchemix/,Alchemix,ALCX,https://alchemix.fi/,,https://twitter.com/alchemixfi
+https://www.coincarp.com/currencies/linearfinance/,Linear Finance,LINA,https://linear.finance/,https://t.me/joinchat/Tb3iAhuMZsyfspxhEWQLvw,https://twitter.com/LinearFinance
+https://www.coincarp.com/currencies/hunt/,Hunt,HUNT,https://token.hunt.town/,https://t.me/steemhunt,https://twitter.com/steemhunt
+https://www.coincarp.com/currencies/groestlcoin/,Groestlcoin,GRS,http://www.groestlcoin.org/,https://t.me/groestl,https://twitter.com/GroestlcoinTeam
+https://www.coincarp.com/currencies/degofinance/,Dego Finance,DEGO,https://dego.finance/,https://t.me/dego_finance,https://twitter.com/dego_finance
+https://www.coincarp.com/currencies/melon/,Enzyme,MLN,https://enzyme.finance/,https://t.me/enzymefinance,https://twitter.com/enzymefinance
+https://www.coincarp.com/currencies/celsius/,Celsius,CEL,https://celsius.network/,,https://twitter.com/celsiusnetwork
+https://www.coincarp.com/currencies/irisnet/,IRISnet,IRIS,https://www.irisnet.org/,https://t.me/irisnetworkcn,https://twitter.com/irisnetwork
+https://www.coincarp.com/currencies/diadata/,DIA,DIA,https://diadata.org/,https://t.me/DIAdata_org,https://twitter.com/DIAdata_org
+https://www.coincarp.com/currencies/wanchain/,Wanchain,WAN,https://www.wanchain.org/,https://t.me/WanchainANN,https://twitter.com/wanchain_org
+https://www.coincarp.com/currencies/flamingo/,Flamingo,FLM,https://flamingo.finance/,https://t.me/flamingo_finance,https://twitter.com/FlamingoFinance
+https://www.coincarp.com/currencies/electroneum/,Electroneum,ETN,http://electroneum.com/,https://t.me/joinchat/DxoSakHOdk5mqsE-LelfVg,https://twitter.com/electroneum
+https://www.coincarp.com/currencies/contentos/,Contentos,COS,https://www.contentos.io/,https://t.me/ContentosOfficialChinese,https://twitter.com/contentosio
+https://www.coincarp.com/currencies/milady-meme-coin/,Milady Meme Coin,LADYS,https://milady.gg/,,https://twitter.com/miladymemecoin
+https://www.coincarp.com/currencies/platon/,PlatON,LAT,https://platon.network/,https://t.me/PlatONNetworkCN,https://twitter.com/PlatON_Network
+https://www.coincarp.com/currencies/automata/,Automata Network,ATA,https://www.ata.network/,https://t.me/ata_network,https://twitter.com/automatanetwork
+https://www.coincarp.com/currencies/phoenix-global-new/,Phoenix Global (new),PHB,https://www.phoenix.global/,https://t.me/APEXcommunity,https://twitter.com/Phoenix_Chain
+https://www.coincarp.com/currencies/boba-network/,Boba Network,BOBA,https://boba.network/,https://t.me/bobanetwork,https://twitter.com/bobanetwork
+https://www.coincarp.com/currencies/leagueofkingdoms/,League of Kingdoms Arena,LOKA,https://www.leagueofkingdoms.com/,https://t.me/LoK_global,https://twitter.com/LeagueKingdoms
+https://www.coincarp.com/currencies/frontier/,Frontier,FRONT,https://frontier.xyz/,https://t.me/FrontierDotXYZ,https://twitter.com/FrontierDotXYZ
+https://www.coincarp.com/currencies/rly/,Rally,RLY,https://rally.io/,,https://twitter.com/Rally_IO
+https://www.coincarp.com/currencies/alphaquarktoken/,Alpha Quark Token,AQT,https://alphaquark.io/,,https://twitter.com/Alphaquark_
+https://www.coincarp.com/currencies/leverfi/,LeverFi,LEVER,https://www.leverfi.io/,https://t.me/LeverFi,https://twitter.com/LeverFi
+https://www.coincarp.com/currencies/bella/,Bella Protocol,BEL,https://bella.fi/,https://t.me/bellaprotocol,https://twitter.com/BellaProtocol
+https://www.coincarp.com/currencies/ethernity-chain/,Ethernity Chain,ERN,https://ethernity.io/,https://t.me/ethernitychain,https://twitter.com/ethernitychain
+https://www.coincarp.com/currencies/cloverfinance/,Clover,CLV,https://clover.finance/,https://t.me/clover_en,https://twitter.com/clover_finance
+https://www.coincarp.com/currencies/unifiprotocoldao/,Unifi Protocol DAO,UNFI,https://unifiprotocol.com/,https://t.me/unifiprotocol,https://twitter.com/unifiprotocol
+https://www.coincarp.com/currencies/ava/,AVA,AVA,https://www.travala.com/,https://t.me/travala,https://twitter.com/travalacom
+https://www.coincarp.com/currencies/orionprotocol/,Orion Protocol,ORN,https://orion.xyz/,https://t.me/orionprotocol,https://twitter.com/orion_protocol
+https://www.coincarp.com/currencies/utrust/,xMoney,UTK,https://www.xmoney.com/,https://t.me/xMoney,https://twitter.com/xMoney_com
+https://www.coincarp.com/currencies/chain-new/,Onyxcoin,XCN,https://onyx.org/,,https://twitter.com/OnyxProtocol
+https://www.coincarp.com/currencies/bitquence/,Voyager Token,VGX,https://www.investvoyager.com/,https://t.me/joinchat/H9SuYEmNirTJFHtMqtc70A,https://twitter.com/investvoyager
+https://www.coincarp.com/currencies/reef/,Reef Finance,REEF,https://reef.io/,https://t.me/reefdefi,https://twitter.com/reef_chain
+https://www.coincarp.com/currencies/idex/,IDEX Token,IDEX,https://idex.io/,https://t.me/IDEXChat,https://twitter.com/idexio
+https://www.coincarp.com/currencies/rarible/,Rarible,RARI,https://rarible.com/,https://t.me/rarible,https://twitter.com/rariblecom
+https://www.coincarp.com/currencies/lto-network/,LTO Network,LTO,https://lto.network/,https://t.me/LTOinfo,https://twitter.com/TheLTONetwork
+https://www.coincarp.com/currencies/mdt/,Measurable Data Token,MDT,https://mdt.io/,https://t.me/measurabledata,https://twitter.com/MeasurableData
+https://www.coincarp.com/currencies/komodo/,Komodo,KMD,https://komodoplatform.com/,https://t.me/KomodoPlatform_Official,https://twitter.com/KomodoPlatform
+https://www.coincarp.com/currencies/singularitydao/,SingularityDAO,SDAO,https://www.singularitydao.ai/,https://t.me/SingularityDAO,https://twitter.com/SingularityDao
+https://www.coincarp.com/currencies/bloktopia/,Bloktopia,BLOK,https://www.bloktopia.com/,https://t.me/BloktopiaChat,https://twitter.com/bloktopia
+https://www.coincarp.com/currencies/litentry/,Litentry,LIT,https://www.litentry.com/,https://t.me/litentry,https://twitter.com/litentry
+https://www.coincarp.com/currencies/wing/,Wing,WING,https://wing.finance/,https://t.me/WingDAO,https://twitter.com/Wing_Finance
+https://www.coincarp.com/currencies/multichain/,Multichain,MULTI,https://multichain.org/,https://t.me/anyswap,https://twitter.com/MultichainOrg
+https://www.coincarp.com/currencies/celo-dollar/,Celo Dollar,CUSD,https://celo.org/,https://t.me/celoplatform,https://twitter.com/CeloOrg
+https://www.coincarp.com/currencies/creamfinance/,Cream,CREAM,https://cream.finance/,https://t.me/CreamdotFinance,https://twitter.com/CreamdotFinance
+https://www.coincarp.com/currencies/keep3rv1/,Keep3rV1,KP3R,https://keep3r.network/,,https://twitter.com/thekeep3r
+https://www.coincarp.com/currencies/district0x/,district0x,DNT,https://district0x.io/,https://t.me/district0x,https://twitter.com/district0x
+https://www.coincarp.com/currencies/tranchess/,Tranchess,CHESS,https://tranchess.com/,https://t.me/tranchess,https://twitter.com/tranchess
+https://www.coincarp.com/currencies/psg/,Paris Saint-Germain,PSG,https://www.psg.fr/,,https://twitter.com/PSG_inside
+https://www.coincarp.com/currencies/fcbarcelonafantoken/,FC Barcelona Fan Token,BAR,https://www.socios.com/fcbarcelona,,
+https://www.coincarp.com/currencies/quickswap-new/,Quickswap(New),QUICK,https://quickswap.exchange/,https://t.me/QuickSwapDEX,https://twitter.com/QuickswapDEX
+https://www.coincarp.com/currencies/starlinkcom/,StarLink,STARL,https://www.starltoken.com/,https://t.me/starlinkofficial,https://twitter.com/starlinketh
+https://www.coincarp.com/currencies/alpaca-finance/,Alpaca Finance,ALPACA,https://www.alpacafinance.org/,https://t.me/alpacafinance,https://twitter.com/AlpacaFinance
+https://www.coincarp.com/currencies/harvestfinance/,Harvest Finance,FARM,https://harvest.finance/,https://t.me/Breadforthepeople,https://twitter.com/harvest_finance
+https://www.coincarp.com/currencies/ramp/,Ramp DeFi,RAMP,https://rampdefi.com/,,
+https://www.coincarp.com/currencies/rei-network/,REI Network,REI,https://www.rei.network/,https://t.me/GXChain_international,https://twitter.com/GXChainGlobal
+https://www.coincarp.com/currencies/beefyfinance/,Beefy,BIFI,https://beefy.com/,https://t.me/beefyfinance,https://twitter.com/beefyfinance
+https://www.coincarp.com/currencies/selfkey/,Selfkey,KEY,https://selfkey.org/,https://t.me/selfkeyfoundation,https://twitter.com/SelfKey/
+https://www.coincarp.com/currencies/parsiq/,Parsiq,PRQ,https://parsiq.net/,https://t.me/parsiq_group,https://twitter.com/parsiq_net
