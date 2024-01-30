@@ -12,28 +12,28 @@ driver = webdriver.Chrome()
 
 df = pd.read_csv(f'coinbot_links.csv')
 
-x =  len(df)//100
+x =  len(df)//1000
 print(x)
 
 driver.maximize_window()
+# for page in range(1,36):
+#     try:
+#         lis = []
+#         link = f'https://coinarbitragebot.com/coins.php?all_coins{page}'
+#         driver.get(link)
+#         time.sleep(1)
+#         # window_height = driver.execute_script("return window.innerHeight;")
+#         # driver.execute_script(f"window.scrollBy(0, {window_height*5});")
+#         # time.sleep(1)
 
-try:
-    lis = []
-    link = f'https://coinarbitragebot.com/'
-    driver.get(link)
-    time.sleep(1)
-    # window_height = driver.execute_script("return window.innerHeight;")
-    # driver.execute_script(f"window.scrollBy(0, {window_height*5});")
-    # time.sleep(1)
+#         li = driver.find_elements(By.XPATH,'//*[@id="shead"]/div/div/div[4]/table/tbody/tr/td[1]/a')
 
-    li = driver.find_elements(By.XPATH,"//td[@class='text-left indx1']/a")
-
-    for i in li:
-        lis.append(i.get_attribute('href'))
-    df  = pd.DataFrame(lis)
-    df.to_csv('coinbot_links.csv',index=False,mode='a',header=False)
-except:
-    print('Error')
+#         for i in li:
+#             lis.append(i.get_attribute('href'))
+#         df  = pd.DataFrame(lis)
+#         df.to_csv('coinbot_links.csv',index=False,mode='a',header=False)
+#     except:
+#         print('Error')
 
 
 df = pd.read_csv(f'coinbot_links.csv') 
@@ -53,14 +53,11 @@ for i in lis[len(data):]:
     # full_name = full_name[:-len(new_len)]
     
     # social_media = driver.find_elements(By.XPATH,"//a[@class='ng-scope']")
-    
-    
-    time.sleep(2)
     try:
         click = driver.find_element(By.XPATH,'//*[@id="dropdown06"]').click()
     except:
         print('No button')
-    time.sleep(2)
+    time.sleep(1)
     
     telegram = ''
     twitter = ''
