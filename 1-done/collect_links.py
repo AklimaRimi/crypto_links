@@ -47,19 +47,22 @@ driver.maximize_window()
 #     df = df.drop_duplicates()
     # df.to_csv('coincheckup_links.csv',index=False,mode='a',header=False)
     
+df = pd.read_csv(f'deleted.csv')['Links'].values.tolist()
+df2 = pd.read_csv(f'coincheckup_links.csv')
+df2 = df2.drop_duplicates()
+df3 = pd.read_csv(f'coincheckup_info.csv')['Project Info'].values.tolist()
+lis = df2['Links'].values.tolist()
+lis = [x for x in lis if (x not in df) and (x not in df3)]
 
-df = pd.read_csv(f'coincheckup_links.csv') 
-df = df.drop_duplicates()
-df.to_csv(f'coincheckup_links.csv',index=False)
-lis = df['Links'].values.tolist()
-data = pd.read_csv('coincheckup_info.csv')['Project Info'].values.tolist()
+print(len(lis))
 
 def scrap(li):
     for i in li:
         print(i,'\n\n\n')
-        time.sleep(1)
         try: 
             driver.get(i)  
+            time.sleep(1)
+            driver.refresh()
             time.sleep(2)
             window_height = driver.execute_script("return window.innerHeight;")
             driver.execute_script(f"window.scrollBy(0, {window_height*15});")
@@ -79,35 +82,16 @@ def scrap(li):
             
             new_len = len(full_name.split(' ')[-1])
             data = [[i,full_name[:-new_len],full_name.split(' ')[-1],website,telegram,twitter]]
-            lis.pop(i)
-            df = pd.DataFrame(lis)
-            df.to_csv('coincheckup_links.csv',index=False,mode='a',header=False)
+            df = pd.DataFrame([i])
+            df.to_csv('deleted.csv',index=False,mode='a',header=False)  
+            
+            df  = pd.DataFrame(data)
+            df.to_csv('coincheckup_info.csv',index=False,mode='a',header=False)
         except:
             print('error')
     
-        df  = pd.DataFrame(data)
-        df.to_csv('coincheckup_info.csv',index=False,mode='a',header=False)
+      
 
-if __name__ == "__main__":
+scrap(lis)
 
-
-
-    cpus = mp.cpu_count()-2
-
-    chunk  = int(len(lis)//cpus )//2
-
-    print(chunk)
-    li = []
-    for i in range(0,cpus*2):
-
-        s = i*chunk
-        e = s+chunk
-        print(s,e)
-        li.append(lis[s:e])
-        
-
-    pool = mp.Pool(cpus)
-    pool.map(scrap,li)  
-
-
-    driver.close()
+driver.close()

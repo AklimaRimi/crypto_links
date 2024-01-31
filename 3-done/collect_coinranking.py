@@ -44,6 +44,8 @@ df = df.drop_duplicates()
 lis = df['Links'].values.tolist()
 data = pd.read_csv('coinrank_info.csv')['Project Info'].values.tolist()
 
+print(len(lis))
+
 
 for i in lis[len(data)+1:]:
     time.sleep(1)

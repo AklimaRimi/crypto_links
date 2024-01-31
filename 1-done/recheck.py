@@ -8,16 +8,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 df1 =  pd.read_csv('1-done/coincheckup_info.csv')
-df2 = pd.read_csv('1-done/coincheckup_links.csv')
-
-df1 = df1.drop_duplicates()
-
-df2 = df2.drop_duplicates()
-df2['Links'].to_csv('1-done/coincheckup_links.csv',index=False)
-
-links = df2['Links'].values.tolist()
-links2 = df1['Project Info'].values.tolist()
-
-link = [x for x in links if x not in links2]
-
-print(len(links))
+df1 = df1.drop_duplicates(['Project Info'])
+df1 = df1.sort_values(['Full Name'])
+df1.to_csv('1-done/coincheckup_info.csv',index=False)
