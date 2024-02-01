@@ -52,11 +52,14 @@ df2 = pd.read_csv(f'live_link.csv')
 df2 = df2.drop_duplicates()
 lis = df2['Links'].values.tolist()
 lis = [x for x in lis if x not in df]
+
+
+print(len(lis))
 for i in lis:
     try:
         print(i,'\n\n\n')
         driver.get(i)  
-        time.sleep(2)
+        time.sleep(1)
         # window_height = driver.execute_script("return window.innerHeight;")
         # driver.execute_script(f"window.scrollBy(0, {window_height*3});")
         # time.sleep(1) 
