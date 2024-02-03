@@ -48,13 +48,13 @@ lis = [x for x in lis if (x not in df) and (x not in df3)]
 print(len(lis))
 
 def scrap(li):
+
     for i in li:
-        print(i,'\n\n\n')
-        try:    
+        try:
+            print(i,'\n\n\n')
+
             driver.get(f'{i}')
-            time.sleep(1)
-            driver.refresh()
-            time.sleep(1)
+            time.sleep(3)
             full_name = driver.find_element(By.XPATH,"/html/body/div[3]/div[10]/div/div/div[3]/div[1]/div[1]/h2").text
             new_len = driver.find_element(By.XPATH,'/html/body/div[3]/div[10]/div/div/div[3]/div[1]/div[1]/h2/b').text
             full_name = full_name[:-len(new_len)]
@@ -78,8 +78,10 @@ def scrap(li):
             
             df  = pd.DataFrame(data)
             df.to_csv('coinvote_info.csv',index=False,mode='a',header=False)
+            
         except:
-            print('error')
+            print('Not Found')
+ 
             
             
 if __name__ == '__main__':
@@ -90,7 +92,7 @@ if __name__ == '__main__':
 
     li = []
 
-    for i in range(cpu*2):
+    for i in range(cpu):
         s = i*x
         e = s+x
         li.append(lis[s:e])
