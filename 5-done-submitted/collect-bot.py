@@ -9,10 +9,7 @@ import multiprocessing as mp
 warnings.filterwarnings('ignore')
 
 
-driver = webdriver.Chrome()
 
-
-driver.maximize_window()
 # for page in range(1,36):
 #     try:
 #         lis = []
@@ -36,11 +33,16 @@ driver.maximize_window()
 df = pd.read_csv(f'deleted.csv')['Links'].values.tolist()
 df2 = pd.read_csv(f'coinbot_links.csv')
 df2 = df2.drop_duplicates()
+df3 = pd.read_csv(f'coinbot_info.csv')['Project Info'].values.tolist()
 lis = df2['Links'].values.tolist()
-lis = [x for x in lis if x not in df]
+lis = [x for x in lis if (x not in df) and (x not in df3)]
 
 
 def scrap(lis):
+    driver = webdriver.Chrome()
+
+
+    driver.maximize_window()
     for i in lis:
         try:
             print(i,'\n\n\n')
@@ -88,7 +90,7 @@ def scrap(lis):
         except:
             print('Error')
 
-
+    driver.close()
 
 if __name__ == '__main__':
 
@@ -98,7 +100,7 @@ if __name__ == '__main__':
 
     li = []
 
-    for i in range(cpu*2):
+    for i in range(cpu):
         s = i*x
         e = s+x
         li.append(lis[s:e])
@@ -108,10 +110,6 @@ if __name__ == '__main__':
     pool = mp.Pool(cpu)
 
     pool.map(scrap,li)
-
-
-
-    driver.close()
 
 
 
