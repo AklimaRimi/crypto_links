@@ -18,11 +18,11 @@ x = len(df)//16
 
 for page in range(x+1,3855):
     driver.get(f'https://icoholder.com/en/icos/all?fbclid=IwAR3Rl3KXEIF7s6wWzSLKIZnFwtwpqgSAfL50DvAe5daaPMUqltVmTfjLlKw&isort=r.general&idirection=desc&page={page}')
-    time.sleep(2)
+    time.sleep(1)
     data = []
     
-    window_height = driver.execute_script("return window.innerHeight;")
-    driver.execute_script(f"window.scrollBy(0, {window_height*5});")
+    # window_height = driver.execute_script("return window.innerHeight;")
+    # driver.execute_script(f"window.scrollBy(0, {window_height*5});")
     
     links = driver.find_elements(By.XPATH,"//div[@class='ico-list-name-d']/h3/a")
     
