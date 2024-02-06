@@ -35,7 +35,7 @@ for page in range(x+1,1238):
     
     df = pd.DataFrame(data)
     df = df.drop_duplicates()
-    print(page, len(data))
+    print(page, len(df))
     df.to_csv('links.csv',index=False,mode='a',header=False)
     
     next = driver.find_elements(By.XPATH,"//button[@class='StyledButtonKind-sc-1vhfpnt-0 cMaZpI StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 kPuPyK']")
