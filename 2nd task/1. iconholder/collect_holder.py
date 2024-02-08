@@ -39,7 +39,7 @@ import time
 df = pd.read_csv(f'deleted.csv')['Links'].values.tolist()
 df2 = pd.read_csv(f'collect_links.csv')
 df2 = df2.drop_duplicates()
-df2.to_csv(f'collect_links.csv',index=False)
+# df2.to_csv(f'collect_links.csv',columns=['Links'],index=False)
 df3 = pd.read_csv(f'collect_info.csv')['Project Info'].values.tolist()
 lis = df2['Links'].values.tolist()
 lis = [x for x in lis if (x not in df) and (x not in df3)]
@@ -47,14 +47,14 @@ lis = [x for x in lis if (x not in df) and (x not in df3)]
 print(len(lis))
 
 def scrap(li):
-    driver = webdriver.Chrome()
+    driver = webdriver.Edge()
     driver.maximize_window()
     for i in li:
         try:
             print(i,'\n\n\n')
 
             driver.get(f'{i}')
-            time.sleep(1)
+            time.sleep(20)
             full_name = driver.find_element(By.XPATH,"//div[@class='ico-titles-in-view']/h1").text
             new_len = driver.find_element(By.XPATH,'//*[@id="details"]/div[2]/div[1]/div/div[2]/div[1]/div[2]').text
             # full_name = full_name[:-len(new_len)]
@@ -87,7 +87,7 @@ def scrap(li):
             
 if __name__ == '__main__':
 
-    cpu = 4
+    cpu = 1
 
     x = (len(lis)//cpu)+1
 
