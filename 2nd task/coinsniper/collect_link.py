@@ -11,14 +11,8 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium import webdriver
 driver = webdriver.Chrome()
 
-import undetected_chromedriver as uc
-from selenium import webdriver
-
-options = webdriver.ChromeOptions() 
-options.add_argument("start-maximized")
-driver = uc.Chrome(options=options)
-driver.get('https://bet365.com')
-
+driver.get(f'https://coinsniper.net/?page=1')
+time.sleep(500)
 
 # df = pd.read_csv(f'links.csv')
 # x =  len(df)//50
