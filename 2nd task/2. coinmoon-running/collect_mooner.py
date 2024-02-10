@@ -6,16 +6,14 @@ import multiprocessing as mp
 import time
 
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.maximize_window()
-
-
 
 df=  pd.read_csv('collect_links.csv')['Links'].values.tolist()
 
 x = len(df)//16
 driver.get(f'https://coinmooner.com/')
-time.sleep(2)
+time.sleep(200)
 driver.find_element(By.XPATH,"//select[@class='MainView_tableResultsInput__E_k5O']").click()
 time.sleep(1)
 driver.find_element(By.XPATH,"//select[@class='MainView_tableResultsInput__E_k5O']/option[4]").click()

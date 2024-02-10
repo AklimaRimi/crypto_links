@@ -6,14 +6,14 @@ import multiprocessing as mp
 import time
 # //select[@class='custom-select custom-select-sm form-control form-control-sm']
 
-# driver = webdriver.Edge()
-# driver.maximize_window()
+driver = webdriver.Edge()
+driver.maximize_window()
 
 
 
-# # df=  pd.read_csv('collect_links.csv')['Links'].values.tolist()
+# df=  pd.read_csv('collect_links.csv')['Links'].values.tolist()
 
-# # x = len(df)//16
+# x = len(df)//16
 
 # driver.get(f'https://coindiscovery.app/')
 # time.sleep(2)
@@ -28,10 +28,10 @@ import time
 #     # window_height = driver.execute_script("return window.innerHeight;")
 #     # driver.execute_script(f"window.scrollBy(0, {window_height*5});")
 
-    
-#     links = driver.find_elements(By.XPATH,"//table[@class='table table-hover token-grid dataTable no-footer dtfc-has-left']/tbody/tr/td[3]/a")
-    
 #     try:
+#         links = driver.find_elements(By.XPATH,"//table[@class='table table-hover token-grid dataTable no-footer dtfc-has-left']/tbody/tr/td[3]/a")
+    
+    
 #         for link in links:
 #             x = link.get_attribute('href')
 #             data.append(x)
@@ -48,6 +48,8 @@ import time
 df = pd.read_csv(f'deleted.csv')['Links'].values.tolist()
 df2 = pd.read_csv(f'links.csv')
 df2 = df2.drop_duplicates()
+
+print(len(df2))
 # df2.to_csv(f'collect_links.csv',columns=['Links'],index=False)
 df3 = pd.read_csv(f'info.csv')['Project Info'].values.tolist()
 lis = df2['Links'].values.tolist()
