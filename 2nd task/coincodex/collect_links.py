@@ -9,44 +9,37 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 from selenium import webdriver
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 driver.get(f'https://coincodex.com/')
 time.sleep(2)
 
 df = pd.read_csv(f'links.csv')
 x =  len(df)//50
-for page in range(x+1,5):
+window_height = driver.execute_script("return window.innerHeight;")
+driver.execute_script(f"window.scrollBy(0, {window_height*10});")
+for page in range(1,5):
 
-    try:
-        lis = []        
-        # window_height = driver.execute_script("return window.innerHeight;")
-        # driver.execute_script(f"window.scrollBy(0, {window_height*});")
+        lis = []
+          
+        window_height = driver.execute_script("return window.innerHeight;")
+        driver.execute_script(f"window.scrollBy(0, {window_height*8});")
+        time.sleep(5)
         li = driver.find_elements(By.XPATH,"//a[@class='coin-name']")
         print(page,len(li))
 
         for i in li:
-            lis.append(i.get_attribute('href'))
+            hf = i.get_attribute('href')
+            print(hf)
+            if hf is not None and len(hf)>2:
+                lis.append(hf)
         df  = pd.DataFrame(lis)
 
         print(page,len(df))
         df.to_csv('links.csv',index=False,mode='a',header=False)
-        driver.find_element(By.XPATH,"//div[@class='load-more homepage-not-found']").click()
+        driver.find_element(By.XPATH,"//a[@class='button button-secondary']").click()
         time.sleep(5)
-      
-    except:
-        continue
-time.sleep(1)
 
-li = driver.find_elements(By.XPATH,"//a[@class='coin-name']")
-print(len(li))
-
-for i in li:
-    lis.append(i.get_attribute('href'))
-df  = pd.DataFrame(lis)
-
-print(page,len(df))
-df.to_csv('links.csv',index=False,mode='a',header=False)
 
 # df = pd.read_csv(f'deleted.csv')['Links'].values.tolist()
 # df2 = pd.read_csv(f'coinvote_links.csv')
