@@ -9,12 +9,12 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
-df = pd.read_csv(f'coinrank_links.csv')
+# df = pd.read_csv(f'coinrank_links.csv')
 
-x =  len(df)//50
-print(x)
+# x =  len(df)//50
+# print(x)
 
 driver.maximize_window()
 # for page in range(x-5,684):
@@ -47,8 +47,8 @@ data = pd.read_csv('coinrank_info.csv')['Project Info'].values.tolist()
 print(len(lis))
 
 
-for i in lis[len(data)+1:]:
-    time.sleep(1)
+for i in lis:
+    time.sleep(5)
     print(i,'\n\n\n')
     try:
         driver.get(f'{i}')
@@ -75,4 +75,3 @@ for i in lis[len(data)+1:]:
     except:
         print('Error')
 
-driver.close()

@@ -10,37 +10,37 @@ warnings.filterwarnings('ignore')
 
 
 driver = webdriver.Chrome()
-df = pd.read_csv(f'coincarp_links.csv')
+# df = pd.read_csv(f'coincarp_links.csv')
 
-x =  len(df)//100
-print(x)
-driver.maximize_window()
-for page in range(x,278):
-    try:
-        link = f'https://www.coincarp.com/pn_{page}.html'
-        lis = []
-        driver.get(link)
-        time.sleep(1)
-        window_height = driver.execute_script("return window.innerHeight;")
-        driver.execute_script(f"window.scrollBy(0, {window_height*11});")
-        time.sleep(1)
+# x =  len(df)//100
+# print(x)
+# driver.maximize_window()
+# for page in range(x,278):
+#     try:
+#         link = f'https://www.coincarp.com/pn_{page}.html'
+#         lis = []
+#         driver.get(link)
+#         time.sleep(1)
+#         window_height = driver.execute_script("return window.innerHeight;")
+#         driver.execute_script(f"window.scrollBy(0, {window_height*11});")
+#         time.sleep(1)
 
-        li = driver.find_elements(By.XPATH,"//div[@class='flex']/a")
+#         li = driver.find_elements(By.XPATH,"//div[@class='flex']/a")
 
-        for i in li[1:]:
-            lis.append(i.get_attribute('href'))
+#         for i in li[1:]:
+#             lis.append(i.get_attribute('href'))
 
-        df  = pd.DataFrame(lis)
-        df.to_csv('coincarp_links.csv',index=False,mode='a',header=False)
-    except:
-        print('error')
+#         df  = pd.DataFrame(lis)
+#         df.to_csv('coincarp_links.csv',index=False,mode='a',header=False)
+#     except:
+#         print('error')
 
 
 df = pd.read_csv(f'coincarp_links.csv') 
 df = df.drop_duplicates()
 lis = df['Links'].values.tolist()
 data = pd.read_csv('coincarp_info.csv')['Project Info'].values.tolist()
-for i in lis[len(data):]:
+for i in lis:
     print(i,'\n\n\n')
     try:
         driver.get(i)

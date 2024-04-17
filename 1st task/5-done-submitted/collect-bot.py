@@ -39,11 +39,13 @@ lis = [x for x in lis if (x not in df) and (x not in df3)]
 
 
 def scrap(lis):
+    print(len(lis))
     driver = webdriver.Chrome()
 
 
     driver.maximize_window()
     for i in lis:
+        i = i.replace('\t','')
         try:
             print(i,'\n\n\n')
             driver.get(f'{i}')
@@ -64,7 +66,6 @@ def scrap(lis):
             li = driver.find_elements(By.XPATH,'//*[@id="shead"]/div/div[1]/div[3]/div[2]/table/tbody/tr[3]/td[5]/div/div/a')
             for a in li:
                 link = a.get_attribute('href')
-                print(link)
                 if link is not None and 't.me' in link:
                     telegram = link
                 if link is not None and  'twitter' in link:
@@ -82,6 +83,7 @@ def scrap(lis):
             except:
                 website = ''
             data = [[i, full_name,new_len,website,telegram,twitter]]
+            print( i, full_name,new_len,website,telegram,twitter)
             df = pd.DataFrame([i])
             df.to_csv('deleted.csv',index=False,mode='a',header=False)
             

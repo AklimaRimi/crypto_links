@@ -52,6 +52,7 @@ lis = [x for x in lis if (x not in df)]
 
 def scrap(li):
     for i in li:
+        i = i.replace('\t','')
         print(i,'\n\n\n')
         try:
             time.sleep(1)
